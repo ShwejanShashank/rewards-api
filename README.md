@@ -73,8 +73,9 @@ POST /api/rewards/transactions
 **Body:**
 ```json
 [
-  { "customerId": "cust1", "date": "2025-05-01", "amount": 120 },
-  { "customerId": "cust2", "date": "2025-06-10", "amount": 90 }
+  { "customerId": "cust1", "date": "2025-05-01", "amount": 100 },
+  { "customerId": "cust2", "date": "2025-06-15", "amount": 200 },
+  { "customerId": "custX", "date": "2025-06-01", "amount": 300 }
 ]
 ```
 
@@ -114,9 +115,10 @@ GET /api/rewards/customers/{customerId}
 {
   "customerId": "cust1",
   "monthlyRewards": [
-    { "month": "May", "points": 90 }
+    { "month": "June", "points": 90 },
+    { "month": "May", "points": 80 }
   ],
-  "totalPoints": 90
+  "totalPoints": 170
 }
 ```
 
@@ -133,8 +135,8 @@ Returns a map like:
 
 ```json
 {
-  "cust1": 120,
-  "cust2": 250
+  "cust1": 450,
+  "cust2": 750
 }
 ```
 
