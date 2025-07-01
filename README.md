@@ -64,7 +64,7 @@ Creates a new customer profile.
 ![image](https://github.com/user-attachments/assets/edaefba2-f11e-423d-8355-ddf71645c4d6)
 
 
-### 🧾 Add Transactions
+###  Add Transactions
 
 ```
 POST /api/rewards/transactions
@@ -104,7 +104,7 @@ Returns monthly breakdown and total reward points for the given customers.
 ![image](https://github.com/user-attachments/assets/79505491-7f89-4e16-818c-371a94bd3878)
 
 
-### 🔍 Get Rewards for One Customer
+###  Get Rewards for One Customer
 
 ```
 GET /api/rewards/customers/{customerId}
@@ -125,7 +125,7 @@ GET /api/rewards/customers/{customerId}
 ---
 ![image](https://github.com/user-attachments/assets/591fc643-ec22-4a9b-8eff-9138466e61cd)
 
-### 📊 Get Total Points for All Customers
+###  Get Total Points for All Customers
 
 ```
 GET /api/rewards/totals
@@ -144,7 +144,7 @@ Returns a map like:
 ![image](https://github.com/user-attachments/assets/86daaa5c-4f5f-46b8-bbe1-fcdeadf98663)
 
 
-## 🧪 Unit Tests
+##  Unit Tests
 
 Run with:
 
@@ -192,4 +192,5 @@ src/
 
 ---
 
+## Github Repo : https://github.com/ShwejanShashank/rewards-api.git
 
