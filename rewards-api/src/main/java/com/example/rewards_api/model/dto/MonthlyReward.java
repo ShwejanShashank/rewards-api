@@ -1,4 +1,4 @@
-package com.example.rewards_api.dto;
+package com.example.rewards_api.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
